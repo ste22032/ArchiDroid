@@ -23,11 +23,11 @@
 
 set -e
 
-VERSION=3.0.0
+VERSION=3.1.0
 
 # Device-based
 DEVICE="i9300" # This is AOSP variant to build, the one used in brunch command. If you use "brunch i9300", you should set it to i9300 here
-BUILDVARIANT="user" # Change this to userdebug if for some reason you can't build with user variant
+BUILDVARIANT="userdebug" # Change this to userdebug if for some reason you can't build with user variant
 
 # Rom-based
 ROM="CyanogenMod" # This is actually for information purpose only, can be anything
